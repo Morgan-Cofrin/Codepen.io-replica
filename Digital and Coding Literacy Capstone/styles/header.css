@@ -1,0 +1,92 @@
+.header-wrapper {
+    background-color: black;
+    height: 80px;
+    font-size: 18px;
+    color: white;
+
+    display: grid;
+    grid-template-columns: .5fr 1.5fr 1fr;
+    align-items: center;
+}
+
+.header-wrapper > .left-column img {
+    height: 40px;
+    margin-left: 20px;
+}
+
+.header-wrapper > .center-column > .nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-wrapper > .center-column p {
+    margin: 0;
+    padding-left: 10px;
+    color: #e3da83;
+}
+
+.header-wrapper > .center-column > .nav-wrapper > .nav-link {
+    padding: 5px 10px;
+    font-weight: 900px;
+}
+
+.header-wrapper > .center-column > .nav-wrapper > .drop-down-menu > .spark-drop-down {
+    padding: 10px 10px 10px 40px;
+    color: #a2a5a7;
+}
+
+.header-wrapper > .center-column > .nav-wrapper > .drop-down-menu > .spark-drop-down i {
+    padding-left: 10px;
+    color: #a2a5a7;
+}
+
+.right-column {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-wrapper > .right-column > .create-search-login-signup-buttons-wrapper {
+    padding: 10px;
+    width: 350px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-wrapper > .right-column > .create-search-login-signup-buttons-wrapper button {
+    color: white;
+    font-size: 14px;
+
+    background-color: #36383f;
+    height: 45px;
+    width: 65px;
+    border: none;
+    border-radius: 3px;
+    align-items: center;
+}
+
+.header-wrapper > .right-column > .create-search-login-signup-buttons-wrapper > .create-button {
+    padding-left: 5px;
+    width: 90px;
+}
+
+.header-wrapper > .right-column > .create-search-login-signup-buttons-wrapper > .create-button i {
+    padding-left: 5px;
+    size: 1.5rem;
+    color: #4bce79;
+}
+
+.header-wrapper > .right-column > .create-search-login-signup-buttons-wrapper > .search-button {
+    background-color: black;
+    border: none;
+    width: 40px;
+    padding: 0px;
+}
+
+.header-wrapper > .right-column > .create-search-login-signup-buttons-wrapper > .search-button i {
+    color: #7b7e8b;
+    font-size: 2rem;
+}
+
+

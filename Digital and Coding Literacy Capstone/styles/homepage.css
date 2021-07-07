@@ -1,0 +1,71 @@
+.content-wrapper {
+    color: white;
+    height: 600px;
+
+    background-image: url("..//images/gradient-black-grey-linear-1920x1080-c2-000000-a9a9a9-a-150-f-14.png");
+    padding: 50px 0px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-wrapper > .features-section {
+    padding: 5px;
+    width: 650px;
+    height: 400px;
+    letter-spacing: 2px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-wrapper > .features-section > .p1 {
+    font-size: 36px;
+    font-weight: 100;
+    margin: 0px;
+}
+
+.content-wrapper > .features-section > .p2 {
+    font-size: 28px;
+    font-weight: 100;
+    color: #9ea6ad;
+    margin: 0px;
+}
+
+.content-wrapper > .features-section > .features-buttons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 475px;
+}
+
+.content-wrapper > .features-section > .features-buttons-wrapper button {
+    font-size: 24px;
+    font-weight: 600;
+    height: 75px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+.content-wrapper > .features-section > .features-buttons-wrapper > .sign-up {
+    color: black;
+    background-color: #4bce79;
+}
+
+.content-wrapper > .features-section > .features-buttons-wrapper > .learn-more {
+    width: 175px;
+    color: white;
+    background-color: #111111;
+}
+
+.content-wrapper > .features-section-sample-img {
+    margin: 0px;
+    padding: 5px;
+}
+
+.content-wrapper > .features-section-sample-img > .projects-page-sample-img img {
+    border-top-left-radius: 10px;
+    margin-bottom: -4px;
+}
+
